@@ -16,7 +16,6 @@ def main():
     '''
     メインの処理
     Googleの検索エンジンで入力したキーワードを検索し、各ページのURLを取得
-    クリックして各ページに遷移し、前ページに戻るを繰り返す
     '''
 
     driver = webdriver.Chrome(chromedriver_path)  # ChromeのWebDriverオブジェクトを作成
